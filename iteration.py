@@ -12,6 +12,11 @@ def iterate(list):
         #print list[i]
 
 
-def print_scores(names, scores):
+#def print_scores(names, scores):
+#    for i in range(0, len(names)):
+#        print names[i] , " scored " , scores[i]
+
+
+def print_names_scores_ages(names, scores, ages):
     for i in range(0, len(names)):
-        print names[i] , " scored " , scores[i]
+        print names[i], " scored ", scores[i], " and is ", ages[i], " Years old."
