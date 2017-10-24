@@ -1,6 +1,5 @@
 # iterates is preforming an action once for each of the things in the list
-# Make another local change
-# Make a change from home
+# doing the same thing for each member of a list
 
 # [1, 5, 7, 8, 4, 3]
 
@@ -14,11 +13,18 @@ def iterate(list):
         #print list[i]
 
 
-#def print_scores(names, scores):
-#    for i in range(0, len(names)):
-#        print names[i] , " scored " , scores[i]
+def print_scores(names, scores):
+    for i in range(0, len(names)):
+        print names[i] , " scored " , scores[i]
 
 
 def print_names_scores_ages(names, scores, ages):
     for i in range(0, len(names)):
         print names[i], " scored ", scores[i], " and is ", ages[i], " Years old."
+
+
+def add_one(list):
+    for i in range(0, len(list)):
+        list[i] += 1
+
+    return list
