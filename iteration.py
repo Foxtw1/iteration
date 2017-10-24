@@ -28,3 +28,22 @@ def add_one(list):
         list[i] += 1
 
     return list
+
+
+# Accumulation pattern
+# Keep track of other data as we go
+def sum(numbers):
+    total = 0
+    for n in numbers:
+        total += n
+        
+    return total
+
+
+def max(numbers):
+    current_max = numbers[0]
+    for n in numbers:
+        if n > current_max:
+            current_max = n
+    
+    return current_max
