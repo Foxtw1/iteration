@@ -19,7 +19,10 @@ from iteration import *
 #print_names_scores_ages(names, scores, ages)
 
 
-numbers = [1, 3, 4, 2, 4]
+numbers = [1.0, 3.0, 4.0, 2.0, 5.0]
 
 print sum(numbers)
 print max(numbers)
+
+print average(numbers)
+print average_without_bottom_two_numbers(numbers)
